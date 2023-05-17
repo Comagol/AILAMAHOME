@@ -1,0 +1,50 @@
+.carouselCountainer {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  position: relative;
+}
+
+.slider {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  width: 500px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.slide {
+  flex: 0 0 100%;
+  max-width: 500px;
+  height: 400px;
+}
+
+.slide img {
+  width: 500px;
+  height: 98%;
+  object-fit: cover;
+}
+
+.left-arrow,
+.right-arrow {
+  position: absolute;
+  top: calc(50% - 20px);
+  transform: translateY(-50%);
+  z-index: 1;
+  font-size: 2rem;
+  color: black;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.left-arrow {
+  left: 1rem;
+  padding-left: 300px;
+}
+
+.right-arrow {
+  right: 1rem;
+  padding-right: 300px;
+}

@@ -1,0 +1,28 @@
+.footerContainer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.socialLinks a {
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.copyrigth {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.logoLink {
+  margin-top: 20px;
+}
+
+.logoFooter {
+    height: 100px;
+}
